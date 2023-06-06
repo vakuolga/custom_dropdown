@@ -1,0 +1,54 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.list-wrapper {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.dropdown {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.dropdown button {
+  position: relative;
+  height: 2.5rem;
+  background-color: #D3D3D3;
+}
+
+.context-menu {
+  position: absolute;
+  width: 260px;
+  padding: 2rem 0;
+  margin: 0;
+  background-color: #FFF;
+  color: #000;
+  list-style: none;
+  text-align: left;
+}
+
+
+.context-menu li button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: .5rem;
+  border-radius: 0;
+  text-align: inherit;
+  white-space: nowrap;
+  color: inherit;
+  background-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}

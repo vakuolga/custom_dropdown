@@ -1,0 +1,31 @@
+{
+  "name": "vacancy-106--test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint \"{src}/**/*.{js,ts,jsx,tsx}\"",
+    "preview": "vite preview",
+    "lint:fix": "eslint \"{src}/**/*.{js,ts,jsx,tsx}\" --fix"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "npm": "^9.6.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.40.0",
+    "eslint-kit": "^8.5.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  }
+}
