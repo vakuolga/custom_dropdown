@@ -1,38 +1,21 @@
-# Компонент Dropdown
+```markdown
+# Dropdown component
 
-Компонент Dropdown, реализованный с помощью TypeScript и библиотеки React на основе функциональных компонентов. 
+A dropdown component written in TypeScript and React with function components.
 
-Контент задается снаружи компонента. Dropdown умеет автоматически определять сторону открытия контента и раскрывать его по клику и ховеру в ту сторону, где будет больше места относительно триггера.
+The content is passed in from outside. The dropdown detects automatically which way to open – down-right, up-right, down-left or up-left – and opens on click or hover towards the side with the most free space next to the trigger.
 
-Допустимые позиции:
+- A click inside the content does not close the dropdown.
+- A click outside or a second click on the trigger closes it.
+- Only one dropdown can be open at a time; opening another closes the current one.
+- When the trigger scrolls out of the viewport the dropdown hides, and it reappears when the trigger comes back.
 
-- вниз-вправо,
-- вверх-вправо,
-- вниз-влево,
-- вверх-влево.
+## Getting started
 
-Клик внутри контента не закрывает дропдаун.
-Клик снаружи или повторный клик в триггер закрывают активный дропдаун.
+You need Node.js and npm installed.
 
-Может быть только один активный дропдаун. Если открывается другой, текущий закрывается.
+    npm install
+    npm start
 
-При выходе инициирующего элемента из вьюпорта дропдаун скрывается, а про появлении — отображается снова.
-
-# Инструкция по запуску
-
-Пример:
-
-Клонируйте репозиторий. Вам понадобятся глобально установленные node и npm.
-
-Установка:
-
-npm install
-
-Для запуска сервера:
-
-npm start
-
-Приложение запустится здесь:
-
-http://localhost:5173/
-
+The app runs at http://localhost:5173/.
+```
